@@ -47,6 +47,7 @@ print("Liczby nieparzyste z podanego zakresu po normalizacji: ")
 for i in range(min(a,b), max(a, b) + 1):
     if i % 2 != 0:
         print(i)
+        print(i+1)
 
 
 
